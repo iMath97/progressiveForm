@@ -1,0 +1,50 @@
+@import "partials/_global";
+
+.form {
+    display: flex;
+
+    .contact {
+        background-color: $black;
+        color: $white;
+        width: 25rem;
+        height: 20rem;
+
+        section {
+            margin: 2rem 1rem;
+        }
+    }
+
+    .input {
+        // height: 20rem;
+        width: 35rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border: $black 0.7rem solid;
+
+        &#externDoc {
+            height: 15rem;
+            border: none;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        input {
+            width: 80%;
+            height: 4rem;
+        }
+
+        button {
+            background-color: black;
+            color: $white;
+            border: none;
+            border-radius: 0.5rem;
+            width: 80%;
+            height: 3rem;
+            font-weight: bold;
+        }
+    }
+}
